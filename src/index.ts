@@ -9,8 +9,7 @@ async function run(url: string) {
   await page.goto(url)
   // await delay(3000)
   const html = await page.$eval('body', (body) => body.outerHTML)
-  const $ = cheerio.load(html)
-  const text = render($('body').text()!)
+  const text = render(cheerio.load(html))
 
   console.log(text)
 

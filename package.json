@@ -1,5 +1,5 @@
 {
-  "name": "terminal-puppeteer",
+  "name": "pynx",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,8 +9,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "delay": "^4.4.0",
-    "puppeteer": "^5.3.1",
-    "turndown": "^7.0.0"
+    "puppeteer": "^5.3.1"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.22",
